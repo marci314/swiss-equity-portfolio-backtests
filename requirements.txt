@@ -1,0 +1,26 @@
+numpy
+# framework/backtesting/strategy.py uses positional Series lookups, which pandas 3 rejects
+pandas>=2.2,<3
+scipy
+matplotlib
+seaborn
+pyarrow
+scikit-learn
+xgboost
+statsmodels
+qpsolvers
+cvxopt
+osqp
+clarabel
+scs
+daqp
+piqp
+quadprog
+highspy
+shap
+joblib
+tqdm
+beautifulsoup4
+ipython
+ipykernel
+jupyterlab

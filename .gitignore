@@ -1,0 +1,29 @@
+# Data (only the README is tracked)
+data/*
+!data/README.md
+
+# Generated results and caches
+ml_stock_selection/sweep_results_*/
+ml_stock_selection/sweep_cache_*/
+ml_stock_selection/*.zip
+use_cases/outputs/
+report/swiss_equity_ml_report_rebuilt.html
+report/swiss_equity_ml_report_backup_*.html
+*.pickle
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
